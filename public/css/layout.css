@@ -1,0 +1,18 @@
+body { font: 16px Arial, sans-serif; background-color: #fff0f5; }
+.container { width: 800px; margin: auto; background-color: white; }
+.header { padding: 20px 20px 0 20px; }
+.header .judul { font-size: 40px; font-weight: bold; margin-bottom: 5px; color: #d63384; }
+.banner {
+    height: 200px;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    border-top: 5px solid #ec4899;
+    border-bottom: 5px solid #f9a8d4;
+}
+.isi { display: flex; margin: 5px; }
+.sidebar { width: 10rem; min-height: 60vh; background-color: #ec4899; padding: 10px; }
+.content { flex: 1; margin-left: 5px; padding: 10px; border: 0.5px solid #f9a8d4; }
+.nav { padding: 0; }
+.nav li { list-style: none; margin-bottom: 10px; }
+.nav li a { text-decoration: none; color: white; }
+.nav li a:hover { background-color: #fbcfe8; color: #9d174d; }
